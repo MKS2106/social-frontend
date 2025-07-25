@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      {/* <h1>Social Media App</h1> */}
+      <h1 className="font-extrabold text-center text-4xl text-blue-600 mt -2 mb-2">Social Media App</h1>
       <NavBar/>
       <Routes>
         <Route path='/' element={<HomePage />} />
